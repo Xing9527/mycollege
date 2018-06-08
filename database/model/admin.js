@@ -6,6 +6,6 @@ var admin = new mongoose.Schema({
     pwd:{
         type:String
     }
-})
+});
 
 module.exports = mongoose.model("admin",admin,"admin")
