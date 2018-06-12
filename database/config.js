@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');  //引入依赖mongoose
-mongoose.connect('mongodb://localhost/xing');  //连接数据库
+mongoose.connect('mongodb://localhost/college');  //连接数据库
 var db = mongoose.connection;
 //数据库连接失败
 db.on('error', console.error.bind(console, 'connection error:'));

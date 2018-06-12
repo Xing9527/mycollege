@@ -8,7 +8,7 @@ module.exports = function() { // 将获得token封装成一个方法，以后获
     
     var options = {    
         scope: 'didi', //设置包裹层   didi
-        expires: 108000   //设置token过期时间三个小时
+        expires: 1080000   //设置token过期时间三个小时
       };
     var putPolicy = new qiniu.rs.PutPolicy(options);  
     var uploadToken=putPolicy.uploadToken(mac);    
